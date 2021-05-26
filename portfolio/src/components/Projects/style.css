@@ -1,0 +1,29 @@
+.project-card {
+    margin: 5px;
+    background-color: #90ccf4;
+    border: none;
+}
+.project-card a {
+    color: #303c6c;
+    font-size: 1.5em;
+}
+
+.overlay {
+    bottom: 0; 
+    color: #f1f1f1; 
+    width: 65%;
+    transition: .5s ease;
+    opacity:0;
+    color: #303c6c;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.repo-img:hover .overlay {
+    opacity: 1;
+}
+
+.card-img-top:hover {
+    width: 105%;
+  }
