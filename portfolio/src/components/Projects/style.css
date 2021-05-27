@@ -1,11 +1,26 @@
+.projectBox {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10rem;
+}
+
+.projectBox h1 {
+    margin: 0 auto;
+    color: #f3d250;
+}
+
 .project-card {
     margin: 5px;
-    background-color: #90ccf4;
-    border: none;
 }
 .project-card a {
-    color: #303c6c;
+    color: #f78888;
     font-size: 1.5em;
+    width: 30rem;
+    text-decoration: none;
+}
+
+#card2 {
+    justify-content: flex-end;
 }
 
 .overlay {
