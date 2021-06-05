@@ -11,16 +11,12 @@
 
 .project-card {
     margin: 5px;
+    text-align: center;
 }
 .project-card a {
     color: #f78888;
     font-size: 1.5em;
     width: 30rem;
-    text-decoration: none;
-}
-
-#card2 {
-    justify-content: flex-end;
 }
 
 .overlay {
@@ -29,9 +25,6 @@
     width: 65%;
     transition: .5s ease;
     opacity:0;
-    color: #303c6c;
-    font-size: 20px;
-    padding: 20px;
     text-align: center;
 }
 
@@ -42,3 +35,22 @@
 .card-img-top:hover {
     width: 105%;
   }
+
+ .description {
+     text-align: center;
+     color: rgb(207, 204, 204);
+
+ }
+
+ .appLink {
+     text-decoration: none;
+ }
+
+ .appLink:hover {
+    color: #f3d250;
+    border-bottom: 1px solid #f3d250;
+ }
+
+ .repo-img:hover {
+     border-bottom: none;
+ }

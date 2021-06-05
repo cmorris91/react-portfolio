@@ -7,3 +7,8 @@
     color: #f78888;
     font-size: 20px;
 }
+
+a:hover {
+    color: #f3d250;
+    border-bottom: 1px solid #f3d250;
+}
