@@ -1,0 +1,21 @@
+#about-me {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    text-align: center;
+    width: 70%;
+    border-radius: 10px;
+    line-height: 2.5;
+    background: rgb(93,162,213);
+    background: radial-gradient(circle, rgba(93,162,213,0.4458158263305322) 0%, rgba(48,60,108,0.5018382352941176) 100%);
+    font-size: 20px;
+    color: #bab2b5;
+    margin-top: 50px;
+    margin-bottom: 50px;
+} 
+
+@media screen and (max-width: 576px) {
+    #about-me {
+        font-size: 10px;
+    }
+    }
