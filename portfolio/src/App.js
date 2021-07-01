@@ -3,7 +3,7 @@ import Nav from "./components/Navbar";
 import Header from "./components/Header";
 import Aside from "./components/Aside";
 import Projects from "./components/Projects";
-import TransitionExampleTransition from "./components/About-me";
+import Skills from "./components/Skills";
 import "./style.css";
 
 
@@ -15,8 +15,8 @@ function App() {
             <Aside/>
             <Header/>
             <Nav/>
-            <TransitionExampleTransition/>
             <Projects/>
+            <Skills/>
         </div>
     
     )

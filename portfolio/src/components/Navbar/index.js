@@ -7,9 +7,10 @@ function Nav () {
     return (
         <nav>
             <div className="navs row justify-content-center">
-                <a className="nav-link col-12 col-lg-4" href="#contact-me">Get In Touch</a>
-                <a className="nav-link col-12 col-lg-4" href="#skills">My Work</a>
-                <a className="nav-link col-12 col-lg-4" href={Resume} download>Resume</a>
+                <a className="nav-link col-12 col-lg-3" href="#contact-me">Get In Touch</a>
+                <a className="nav-link col-12 col-lg-3" href="#projects">My Work</a>
+                <a className="nav-link col-12 col-lg-3" href="#skills">Skills</a>
+                <a className="nav-link col-12 col-lg-3" href={Resume} download>Resume</a>
             </div>
         </nav>
     )

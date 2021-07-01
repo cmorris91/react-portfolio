@@ -13,12 +13,7 @@ export default class TransitionExampleTransition extends Component {
 
     return (
       <div>
-        <Button
-          content={visible ? 'Hide' : 'Show'}
-          onClick={this.toggleVisibility}
-        />
-        <Divider hidden />
-        <Transition visible={visible} animation='scale' duration={500}>
+      
         <main>
             <div id="about-me">
             <h2>Hello, I’m Chelsey Morris.</h2>
@@ -30,7 +25,7 @@ export default class TransitionExampleTransition extends Component {
             </p>
             </div>
         </main>
-        </Transition>
+      
       </div>
     )
   }
