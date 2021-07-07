@@ -1,31 +1,36 @@
 #skills{
-    max-width: 60%;
-    /*margin: 50px;
-    padding: 50px; */
     display: flex;
     justify-content: center;
-    background-color: #f3d250;
-}
-
-.skills-body {
-    background-color: #f3d250;
     text-align: center;
 }
 
+#skills h1 {
+    color: #f3d250;
+}
+
+.skills-body {
+    margin: 10rem;
+    width: 75%;
+    font-size: 28px;
+}
+
 .frontEnd {
-    
+    border: 1px solid #f3d250;
+    border-radius: 10% / 50%;
     margin: 40px;
-    margin-left: 35px;
-    padding: 40px;
-    text-align: left;
+    margin-left: 55px;
+    padding: 100px;
 
 }
 
 .backEnd {
-
+    border: 1px solid #f3d250;
+    border-radius: 10% / 50%;
     margin: 40px;
-    margin-right: 35px;
-    padding: 40px;
-    text-align: right;
+    margin-right: 55px;
+    padding: 100px;
 }
 
+.skills-columns {
+    color: rgb(207, 204, 204);
+}

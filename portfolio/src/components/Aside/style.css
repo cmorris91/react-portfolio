@@ -3,3 +3,7 @@ aside {
     flex-direction: column;
     color: #f3d250;
 }
+
+aside p {
+    font-size: 30px;
+}
