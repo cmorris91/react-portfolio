@@ -34,3 +34,9 @@
 .skills-columns {
     color: rgb(207, 204, 204);
 }
+
+.skillHeading {
+    font-size: 40px;
+    position: relative;
+    top: 0%;
+}

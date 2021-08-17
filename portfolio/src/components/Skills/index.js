@@ -6,9 +6,16 @@ function Skills () {
         <div id="skills">
             <body className="skills-body">
                 <h1>Skills</h1>
+                <div className="row">
+                    <div className=" col skillHeading">
+                        <h2>Front End</h2>
+                    </div>
+                    <div className="col skillHeading">
+                        <h2>Back End</h2>
+                    </div>
+                </div>
                 <div className="row skills-columns">
                     <div className="col frontEnd">
-                        <h2 style={{fontSize: "40px"}}>Front End</h2>
                             <p>HTML</p>
                             <p>CSS</p>
                             <p>Javascript (ES6)</p>
@@ -17,8 +24,8 @@ function Skills () {
                             <p>Bootstrap</p>
                             <p>Moment</p>
                     </div>
+
                     <div className="col backEnd">
-                        <h2 style={{fontSize: "40px"}}>Back End</h2>
                             <p>Node.js</p>
                             <p>Express</p>
                             <p>MySQL</p>
