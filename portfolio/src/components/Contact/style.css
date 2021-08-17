@@ -1,0 +1,21 @@
+
+
+
+
+.social-links a {
+    color: #90ccf4;
+}
+.social-links a:hover {
+    color: #f3d250;
+}
+
+#contact-me {
+    background-color: #303c6c;
+    border: none;
+}
+
+.contact-me-subtitle {
+    color: #f78888;
+    font-family:'Raleway', sans-serif; 
+    text-align: center;
+}
