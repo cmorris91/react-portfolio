@@ -18,11 +18,19 @@ function Projects () {
                 <div className="overlay">Click to see the repo</div>
             </a>
           </div>
-          <h2 className="col description">simple application</h2>
+          <div className="col description">
+          
+            <h2 className="project-descr">The Move allows users to explore, create and give real-time feedback on events. 
+              The user has the ability to search events happening in a specific location, or all the events in our database. 
+              Events can be bookmarked to save for later. Additionally, if a user is at an event that 
+              is on the site they can check in to provide personalized feedabck in the form of comments, ratings and photos.</h2>
+          </div>
         </div>
 
         <div id="card2" className="row">
-          <h2 className="col description">simple application</h2>
+          <div className="col description">
+            <h2 className="project-descr">JumpIn lets you create an account and post, browse and attend events in your area.</h2>
+          </div>
           <div className="project-card" style={{width: "30rem"}}>
                 <a className="repo-img" href="https://github.com/AFF321/JumpIn" style={{fontSize: "15px", textDecoration: "none"}}>
                 <a className="appLink" href="https://vast-dawn-89998.herokuapp.com/">JumpIn</a>
@@ -40,7 +48,10 @@ function Projects () {
                     <div class="overlay">Click to see the repo</div>
             </a>
           </div>
-          <h2 className="col description">simple application</h2>
+          <div className="col description">
+            <h2 className="project-descr">Comprehensive travel page that let's the user enter a city they want to visit and renders Hotel options, Restaurant options and a 5 day forecast.</h2>
+      
+          </div>
         </div>
 
         </div>
