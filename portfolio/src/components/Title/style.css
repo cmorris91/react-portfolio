@@ -1,9 +1,5 @@
 aside {
     display: flex;
     flex-direction: column;
-    color: #f3d250;
-}
-
-aside p {
-    font-size: 30px;
+    color: #bab2b5;
 }

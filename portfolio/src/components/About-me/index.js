@@ -3,11 +3,18 @@ import "./style.css";
     
 function AboutMe () {
 
+  const displayBody = () => {
+    let body = document.getElementsByClassName("body");
+    console.log(body);
+  }
+
   return (
     <div>
-      
-        <main>
-            <div id="about-me">
+        <main id="about-me">
+          <div className="header">
+            <button onClick={displayBody}>A Bit About Me</button>
+          </div>
+          <div className="body">
             <h2>Hello, I’m Chelsey Morris.</h2>
             <p>My balance of creativity and 
                 attention to detail allow me to build unique and exceptional 
@@ -15,7 +22,7 @@ function AboutMe () {
                 I'm a full stack Web Developer with a BFA from the University of the Arts. 
                 I recently earned a certificate in Web Development from UCLA Bootcamp Extension. I’m excited to bring my individual skillset to the industry and see what the future has to offer.
             </p>
-            </div>
+          </div>
         </main>
       
       </div>

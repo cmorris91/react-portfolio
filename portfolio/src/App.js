@@ -1,7 +1,7 @@
 import React from "react";
 import Nav from "./components/Navbar";
 import Header from "./components/Header";
-import Aside from "./components/Aside";
+import Title from "./components/Title";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import AboutMe from "./components/About-me";
@@ -14,7 +14,7 @@ function App() {
     return (
 
         <div> 
-            <Aside/>
+            <Title/>
             <Header/>
             <Nav/>
             <AboutMe/>
