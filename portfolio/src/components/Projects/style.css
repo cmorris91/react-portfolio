@@ -6,17 +6,22 @@
 
 .projectBox h1 {
     margin: 0 auto;
-    color: #f3d250;
+    color: #bab2b5;
 }
 
 .project-card {
-    margin: 5px;
+    margin: 0 auto;
     text-align: center;
 }
+
 .project-card a {
     color: #f78888;
     font-size: 2em;
-    width: 30rem;
+}
+
+.project-img {
+    border-radius: 3%;
+    width: 40%;
 }
 
 .overlay {
@@ -33,21 +38,12 @@
     opacity: 1;
 }
 
-.card-img-top:hover {
+/* .card-img-top:hover {
     width: 105%;
-  }
+  } */
 
- .description {
-     text-align: left;
-     color: rgb(207, 204, 204);
-     max-width: 45%;
 
- }
 
- .appLink {
-     
-     text-decoration: none;
- }
 
  .appLink:hover {
     color: #f3d250;
@@ -56,9 +52,4 @@
 
  .repo-img:hover {
      border-bottom: none;
- }
-
- .project-descr {
-    margin-top: 8%;
-    font-size: 24px;
  }

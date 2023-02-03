@@ -4,8 +4,12 @@ import "./style.css";
 function AboutMe () {
 
   const displayBody = () => {
-    let body = document.getElementsByClassName("body");
-    console.log(body);
+    let body = document.getElementById("body");
+    if(body.style.display == "none") {
+      body.style.display = "block";
+    } else if (body.style.display == "block") {
+      body.style.display = "none"
+    }
   }
 
   return (
@@ -14,7 +18,7 @@ function AboutMe () {
           <div className="header">
             <button onClick={displayBody}>A Bit About Me</button>
           </div>
-          <div className="body">
+          <div id="body">
             <h2>Hello, I’m Chelsey Morris.</h2>
             <p>My balance of creativity and 
                 attention to detail allow me to build unique and exceptional 

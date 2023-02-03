@@ -6,7 +6,7 @@ function Header () {
     return (
         <header>
             <div className="row img-container">
-                <img src={Image} alt="chelsey" className="self-img rounded-circle"/>
+                <img src={Image} alt="chelsey" className="rounded-circle"/>
             </div>
         </header>
     )
