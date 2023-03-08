@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.container h1 {
+    font-size: 65px;
+}
+
+.container p {
+    max-width: 65%;
+    font-size: 24px;
+    text-align: center;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+}
+
+.images {
+    max-width: 65%;
+    display: flex;
+    flex-direction: row;
+}
+@media screen and (max-width: 576px) {
+    #about-me {
+        font-size: 10px;
+    }
+    .self-img {
+        height: 90%;
+    }
+    }
