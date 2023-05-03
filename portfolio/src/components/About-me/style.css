@@ -1,28 +1,25 @@
 #about-me {
     display: flex;
     flex-wrap: wrap;
-    padding: 0;
     text-align: center;
-    width: 50%;
-    font-size: 20px;
+    width: 65%;
     color: #bab2b5;
+    font-size: 25px;
+    margin-top: 12%;
+    margin-bottom: 12%;
    
 } 
-
-.header button {
+/* .header button {
     background-color: #142156;
     color: #bab2b5;
     outline: none;
     border: none;
     font-size: 30px;
     border-bottom: 1px solid #bab2b5;
-}
+} */
 
-#body {
-    display: none;
-}
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 601px) {
     #about-me {
         font-size: 10px;
     }

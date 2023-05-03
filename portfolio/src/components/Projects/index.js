@@ -7,30 +7,34 @@ import { Link } from "react-router-dom";
 import "./style.css"
 
 function Projects () {
+
+  const linkStlye = {
+    color: "#f3d250",
+    fontsize: "35px",
+    textDecoration: "none",
+    
+  }
+
     return ( 
       <div className="projectBox"> 
 
-        <h1 className="row" style={{marginBottom: "6rem"}}>WEB</h1>
+        <h1 className="row">WEB</h1>
 
-        <Link to="/legendary" className="row project-card">
+        <Link to="/legendary" className="row project-card" style={linkStlye}>
           <p>Legendary Collections</p>
           <img src={Image4} className="project-img"  alt="The-Move-App"/> 
         </Link>
 
-        <Link to="/the-move"className="row project-card">
+        <Link to="/the-move"className="row project-card" style={linkStlye}>
           <p>The Move</p>
           <img src={Image} className="project-img"  alt="The-Move-App"/>       
         </Link>
 
-        <Link to="/jumpin"className="row project-card">
+        <Link to="/jumpin"className="row project-card" style={linkStlye}>
           <p>JumpIn</p>
           <img src={Image2} class="project-img" alt="JumpIn"/>  
         </Link>
 
-        <Link className="row project-card">
-          <p>We Want Travel</p>
-          <img src={Image3} className="project-img" alt="Travel Page"/>
-        </Link>
 
       </div>
     )

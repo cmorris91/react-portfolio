@@ -1,5 +1,5 @@
 .navs {
-    margin: 15px 0 40px 0;
+    margin: 15px 0 15px 0;
 }
 
 .nav-link {
@@ -8,7 +8,7 @@
     font-size: 20px;
 }
 
-a:hover {
+.nav-link:hover {
     color: #f3d250;
     border-bottom: 1px solid #f3d250;
 }

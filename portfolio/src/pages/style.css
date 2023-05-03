@@ -25,6 +25,29 @@
     display: flex;
     flex-direction: row;
 }
+
+.carousel {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.carousel-status {
+    display: none;
+}
+
+.control-next {
+    height: 96%;
+    
+}
+
+.control-arrow:hover {
+    background-color: white;
+}
+
+.control-dots {
+    margin: 30px;
+}
 @media screen and (max-width: 576px) {
     #about-me {
         font-size: 10px;

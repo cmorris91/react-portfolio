@@ -1,55 +1,31 @@
 .projectBox {
     display: flex;
     flex-direction: column;
-    margin-top: 10rem;
+    margin-bottom: 12%;
 }
 
 .projectBox h1 {
     margin: 0 auto;
-    color: #bab2b5;
+    color: #f78888;
+    font-size: 55px;
+    margin-bottom: 6%;
 }
 
 .project-card {
     margin: 0 auto;
     text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10%;
+}
+.project-card p {
+    font-size: 20px;
 }
 
-.project-card a {
-    color: #f78888;
-    font-size: 2em;
-}
-
+/* .project-card:hover {
+    
+} */
 .project-img {
     border-radius: 3%;
-    width: 40%;
+    width: 60%;
 }
 
-.overlay {
-    bottom: 0; 
-    color: #f1f1f1; 
-    width: 65%;
-    transition: .5s ease;
-    opacity:0;
-    text-align: center;
-    font-size: 25px;
-}
-
-.repo-img:hover .overlay {
-    opacity: 1;
-}
-
-/* .card-img-top:hover {
-    width: 105%;
-  } */
-
-
-
-
- .appLink:hover {
-    color: #f3d250;
-    border-bottom: 1px solid #f3d250;
- }
-
- .repo-img:hover {
-     border-bottom: none;
- }
