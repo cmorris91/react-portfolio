@@ -1,7 +1,6 @@
 .projectBox {
     display: flex;
     flex-direction: column;
-    margin-bottom: 12%;
 }
 
 .projectBox h1 {

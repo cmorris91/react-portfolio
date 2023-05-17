@@ -4,12 +4,7 @@
     text-align: center;
 }
 
-#skills h1 {
-    color: #f3d250;
-}
-
 .skills-body {
-    margin: 10rem;
     width: 75%;
     font-size: 28px;
 }
@@ -17,26 +12,34 @@
 .frontEnd {
     border: 1px solid #f3d250;
     border-radius: 10% / 50%;
-    margin: 40px;
+    margin: 30px;
     margin-left: 55px;
-    padding: 100px;
+    padding: 50px;
 
 }
 
 .backEnd {
     border: 1px solid #f3d250;
     border-radius: 10% / 50%;
-    margin: 40px;
+    margin: 30px;
     margin-right: 55px;
-    padding: 100px;
+    padding: 50px;
 }
 
 .skills-columns {
+    font-size: 20px;
     color: rgb(207, 204, 204);
 }
 
 .skillHeading {
-    font-size: 40px;
+    font-size: 25px;
     position: relative;
+    color: #f3d250;
     top: 0%;
+}
+
+.skills-body h1 {
+    font-size: 55px;
+    color: #f78888;
+    margin-bottom: 6%;
 }

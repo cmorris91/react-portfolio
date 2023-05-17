@@ -5,7 +5,7 @@ function Skills () {
     return (
         <div id="skills">
             <body className="skills-body">
-                <h1>Skills</h1>
+                <h1>SKILLS</h1>
                 <div className="row">
                     <div className=" col skillHeading">
                         <h2>Front End</h2>
