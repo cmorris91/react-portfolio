@@ -1,6 +1,7 @@
 import React from "react";
 import Image1 from "./images/JumpIn.jpg";
 import MyCarousel from "../components/carousel";
+import "./style.css";
 
 function JumpIn () {
     const images = [
@@ -15,8 +16,8 @@ function JumpIn () {
             <MyCarousel images ={images}/>
             
             <div className="links">
-                <a className="col">Link to repo</a>
-                <a className="col">Link to site</a>
+                <a className="col project-links" href="https://github.com/AFF321/JumpIn">Check out the repo</a>
+                <a className="col project-links">Link to site</a>
             </div>
         </div>
     )
