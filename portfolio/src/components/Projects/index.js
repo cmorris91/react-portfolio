@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "./Images/theMove-screenshot.jpg";
+import Image from "./Images/theMove.jpg";
 import Image2 from "./Images/JumpIn.jpg";
 import Image3 from "./Images/group-project.jpg";
 import Image4 from "./Images/LC-Login.jpg";

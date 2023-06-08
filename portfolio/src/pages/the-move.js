@@ -1,8 +1,8 @@
 import React from "react";
-import Image1 from "./images/theMove.jpg";
-import Image2 from "./images/LC-Login.jpg";
-import Image3 from "./images/theMove3.jpg";
-import Image4 from "./images/theMove4.jpg";
+import Image1 from "../components/Projects/Images/theMove.jpg";
+import Image2 from "../components/Projects/Images/theMove2.jpg";
+import Image3 from "../components/Projects/Images/theMove3.jpg";
+import Image4 from "../components/Projects/Images/theMove4.jpg";
 
 import MyCarousel from "../components/carousel";
 
